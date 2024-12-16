@@ -160,8 +160,8 @@ local aimbotTiming = 0.9 -- Default timing
 
 local Slider = Tab2:CreateSlider({
 	Name = "Aimbot Timing",
-	Range = {0, 2}, -- Adjust range as needed
-	Increment = .1,
+	Range = {0, 1.5}, -- Adjust range as needed
+	Increment = 0.001,
 	Suffix = "Time",
 	CurrentValue = 0.9,
 	Flag = "Slider1",
