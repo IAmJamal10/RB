@@ -198,10 +198,10 @@ local Keybind = Tab2:CreateKeybind({
 })
 
 Tab2:CreateButton({
-	Name = "(L) Lag Server",
+	Name = "(P) Lag Server",
 	Callback = function()
    getgenv().Toggled=false
-getgenv().KeyBind="L"
+getgenv().KeyBind="P"
 getgenv().Delay=0.7
 local UIS=game:GetService'UserInputService'
 
